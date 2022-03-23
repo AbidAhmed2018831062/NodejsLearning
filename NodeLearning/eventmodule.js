@@ -15,7 +15,7 @@ em.emit('bellring', {
 const sch = new School();
 
 sch.on('bellring', ({ period, text }) => {
-    console.log(`The class ends  ${text} in other words after period ${period}`);
+    console.log(`The class ends  ${text} in other words after period ${period} I am Abid`);
 });
 
 sch.period();
